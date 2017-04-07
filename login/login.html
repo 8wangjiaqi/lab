@@ -1,0 +1,119 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>注册页面</title>
+	<meta http-equiv="Content-type" 
+	  content="text/html" charset="UTF-8"/>
+</head>
+    <body>
+	<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+	<table border="1" bordercolor="gray"  align="center"  cellspacing="0">
+        <tr>
+             <td width="79" >用户名：</td>
+             <td width="400"><input type="text"/></td>
+        </tr>
+        <tr>
+             <td width="85" >密码：</td>
+             <td width="400" ><input type="password"/></td>
+        <tr>
+             <td width="85">确认密码：</td>
+             <td width="400"><input type="password"/></td>
+        </tr>
+        <tr>
+              <td width="85">性别：</td>
+              <td width="400"> 
+                    <form>
+                   	   <input type="radio" name="sex" value="male" />男
+                   	   <input type="radio" name="sex" value="female" />女 
+                   	</form>
+              </td>
+        </tr>
+        <tr>
+              <td width="85">生日：</td>
+              <td width="400">
+                        <select name="way">
+              		    	<option value="first">公历</option>
+              		    	<option value="two">农历</option>
+              		    </select>
+              		    <select name="year">
+              		        <option value="first">年</option>
+              		    	<option value="second">1996</option>
+              		        <option value="third">1997</option>
+              		        <option value="fourth">1998</option>
+              		    	<option value="fifth">1999</option>
+              		    </select>
+              		    <select name="month">
+              		       <option value="first">月</option>
+              		       <option value="second">1</option>
+              		       <option value="third">2</option>
+              		       <option value="fourth">2</option>
+              		       <option value="fifth">4</option>
+              		    </select>
+              		    <select name="day">
+              		       <option value="first">日</option>
+              		    </select></td>
+        </tr>
+        <tr>
+              <td width="85">所在地：</td>
+              <td width="400">
+                        <select name="country">
+              		    	<option value="first">中国</option>
+              		    </select>
+              		    <select name="province">
+              		        <option value="first">河北</option>
+              		    </select>
+              		    <select name="city">
+              		        <option value="first">石家庄</option>
+              		    </select>
+              		</td>
+        </tr>
+        <tr>
+              <td width="85">验证码：</td>
+              <td width="400"> <input type="text"/>
+              <img src="images/yanzhengma.png" width="70px" height="30px"/></td>
+        </tr>
+        <tr>
+              <td width="85">证件类型：</td>
+              <td width="400">
+              		    <select name="type">
+              		    	<option value="first">身份证</option>
+              		    </select>
+        </tr>
+        <tr>
+              <td width="85">证件号：</td>
+              <td width="400"> <input type="text"/></td>
+        </tr>
+        <tr>
+              <td width="85">爱好：</td>
+              <td width="400">
+                        <input type="checkbox" name="hobby">音乐
+              		    <input type="checkbox" name="hobby">读书
+              		    <input type="checkbox" name="hobby">跳舞
+              		    <input type="checkbox" name="hobby">下棋
+              		    <input type="checkbox" name="hobby">其他</td>
+        </tr>
+        <tr>
+              <td width="85">说明：</td>
+              <td width="400">
+                   <textarea rows="5" cols="30"> 
+                   </textarea>
+                    
+        </td>
+        <tr>
+              <td width="85">上传头像：</td>
+              <td width="400">
+                    <input type="file" name="ding"> 
+        </tr>
+        <tr>
+              <td  colspan="2" align="center" >
+                 <input type="submit" value="提交" />
+                 <input type="submit" value="重置"/>
+                 <input type="submit" value="按钮" /></td>
+        </tr>
+
+         
+
+    </table>
+    </body>
+</html>
+
